@@ -1,0 +1,28 @@
+[package]
+name = "multitool"
+version = "0.1.0"
+authors = ["humangrass@gmail.com"]
+description = "Useful module for creating services on Rust."
+license = "MIT"
+repository = "https://github.com/humangrass/multitool"
+documentation = "https://docs.rs/multitool"
+readme = "README.md"
+keywords = ["rust", "multitool", "database", "postgresql", "logger"]
+categories = ["web-programming", "development-tools"]
+edition = "2021"
+
+[features]
+default = []
+logger = ["env_logger", "log", "tracing-subscriber", "serde", "clap"]
+database = ["sqlx", "tokio", "log", "anyhow", "serde"]
+full = ["logger", "database"]
+
+[dependencies]
+sqlx = { version = "0.8.2", features = ["runtime-tokio-rustls", "postgres"], optional = true }
+tokio = { version = "1", features = ["full"], optional = true }
+anyhow = { version = "1.0.80", optional = true }
+serde = { version = "1.0.197", features = ["derive"], optional = true }
+env_logger = { version = "0.11.5", optional = true }
+log = { version = "0.4.22", optional = true }
+tracing-subscriber = { version = "0.3.18", optional = true }
+clap = { version = "4.5.19", features = ["derive"], optional = true }
