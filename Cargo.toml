@@ -1,11 +1,11 @@
 [package]
-name = "multitool"
+name = "multitool-hg"
 version = "0.1.0"
 authors = ["humangrass@gmail.com"]
 description = "Useful module for creating services on Rust."
 license = "MIT"
 repository = "https://github.com/humangrass/multitool"
-#documentation = "https://docs.rs/multitool"
+documentation = "https://docs.rs/multitool-hg"
 readme = "README.md"
 keywords = ["rust", "multitool", "database", "postgresql", "logger"]
 categories = ["web-programming", "development-tools"]
