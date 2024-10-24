@@ -5,14 +5,14 @@ authors = ["humangrass@gmail.com"]
 description = "Useful module for creating services on Rust."
 license = "MIT"
 repository = "https://github.com/humangrass/multitool"
-documentation = "https://docs.rs/multitool"
+#documentation = "https://docs.rs/multitool"
 readme = "README.md"
 keywords = ["rust", "multitool", "database", "postgresql", "logger"]
 categories = ["web-programming", "development-tools"]
 edition = "2021"
 
 [features]
-default = []
+default = ["full"]
 logger = ["env_logger", "log", "tracing-subscriber", "serde", "clap"]
 database = ["sqlx", "tokio", "log", "anyhow", "serde"]
 full = ["logger", "database"]
