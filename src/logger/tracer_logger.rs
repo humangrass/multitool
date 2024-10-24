@@ -69,7 +69,7 @@ impl std::fmt::Display for LogLevel {
 ///
 /// # Example
 /// ```rust
-/// use multitool::logger::tracer_logger::{LogLevel, new_tracer_logger};
+/// use multitool_hg::logger::tracer_logger::{LogLevel, new_tracer_logger};
 /// use log::info;
 ///
 /// fn main() {

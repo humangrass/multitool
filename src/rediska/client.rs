@@ -27,7 +27,7 @@ impl Rediska {
     ///
     /// # Example
     ///
-    /// ```rust,no_run
+    /// ```no_run
     /// use multitool_hg::rediska::config::RedisConfig;
     /// use multitool_hg::rediska::client::Rediska;
     ///
@@ -87,7 +87,7 @@ impl Rediska {
     ///
     /// # Example
     ///
-    /// ```rust,no_run
+    /// ```no_run
     /// use multitool_hg::rediska::config::RedisConfig;
     /// use multitool_hg::rediska::client::Rediska;
     ///
@@ -126,7 +126,7 @@ impl Rediska {
     ///
     /// # Example
     ///
-    /// ```rust,no_run
+    /// ```no_run
     /// use multitool_hg::rediska::config::RedisConfig;
     /// use multitool_hg::rediska::client::Rediska;
     ///
