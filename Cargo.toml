@@ -1,6 +1,6 @@
 [package]
 name = "multitool-hg"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["humangrass@gmail.com"]
 description = "Useful module for creating services on Rust."
 license = "MIT"
