@@ -27,19 +27,23 @@ To enable logging, use the `full` or `logger` feature. Available by default.
 
 ### 3. Rediska
 
-The `rediska` module provides functionality for working with Redis using asynchronous connection pooling via `bb8`. This module includes:
+The `rediska` module provides functionality for working with Redis using asynchronous connection pooling via `bb8`. This
+module includes:
 
 - Redis connection settings via `RedisConfig`.
 - Connection pooling for Redis.
 - Convenient methods for setting and getting values in Redis.
 
-The `RedisConfig` allows you to configure parameters like the host, port, username, password, database, connection timeout, and pool size.
+The `RedisConfig` allows you to configure parameters like the host, port, username, password, database, connection
+timeout, and pool size. If you’re working with Redis clusters or socket connections, you can specify a connection_url
+directly.
 
 To enable Redis support, use the `full` or `rediska` features. Available by default.
 
 # Usage
 
-Documentation is available [here](https://docs.rs/multitool-hg/latest/multitool_hg/).
+Documentation is available [here](https://docs.rs/multitool-hg/latest/multitool_hg/) and
+on [crates.io](https://crates.io/crates/multitool-hg).
 
 # Testing
 
