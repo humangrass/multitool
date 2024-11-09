@@ -1,6 +1,6 @@
 [package]
 name = "multitool-hg"
-version = "0.1.2"
+version = "0.1.3"
 authors = ["humangrass@gmail.com"]
 description = "Useful module for creating services on Rust."
 license = "MIT"
@@ -12,7 +12,7 @@ categories = ["web-programming", "development-tools"]
 edition = "2021"
 
 [features]
-default = ["full"]
+default = []
 logger = ["env_logger", "log", "tracing-subscriber", "serde", "clap"]
 database = ["sqlx", "tokio", "log", "anyhow", "serde"]
 rediska = ["redis", "serde", "tokio", "anyhow", "bb8", "bb8-redis"]
